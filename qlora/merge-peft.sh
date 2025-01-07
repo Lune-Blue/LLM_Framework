@@ -1,0 +1,1 @@
+sh /home/lune/nas2/Projects/code_editing/qlora/merge-dscoder.sh /home/lune/nas2/Projects/code_editing/checkpoints/rejection_sampling_2/adapter_model-merged/rejection_sampling-feedback-only-scott-level-2/checkpoint-1200
