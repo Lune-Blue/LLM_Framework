@@ -1,0 +1,33 @@
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+[2025-01-10 13:24:34,150] [INFO] [axolotl.callbacks.on_train_begin:812] [PID:2638219] [RANK:0] The Axolotl config has been saved to the WandB run under files.[39m
+  0%|                                                                                                                                                                   | 0/23 [00:00<?, ?it/s]You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23/23 [00:18<00:00,  1.27it/s]
+{'loss': 1.6374, 'grad_norm': 0.6767688393592834, 'learning_rate': 2e-05, 'epoch': 0.04}
+[2025-01-10 13:24:35,317] [INFO] [axolotl.utils.samplers.multipack.calc_min_len:197] [PID:2638219] [RANK:0] gather_len_batches: [27, 27, 27, 27, 27, 27, 27, 27][39m
+                                                                                                                                                                                               
+{'eval_loss': 1.9565858840942383, 'eval_runtime': 0.5996, 'eval_samples_per_second': 231.829, 'eval_steps_per_second': 15.011, 'epoch': 0.04}
+[2025-01-10 13:24:36,620] [INFO] [axolotl.callbacks.on_step_end:128] [PID:2638219] [RANK:0] cuda memory usage while training: 2.424GB (+15.740GB cache, +0.978GB misc)[39m
+{'loss': 1.6718, 'grad_norm': 0.5986299514770508, 'learning_rate': 4e-05, 'epoch': 0.09}
+{'loss': 1.6509, 'grad_norm': 0.6565681099891663, 'learning_rate': 6e-05, 'epoch': 0.13}
+{'loss': 1.6386, 'grad_norm': 0.6425402164459229, 'learning_rate': 8e-05, 'epoch': 0.17}
+{'loss': 1.5368, 'grad_norm': 0.5203417539596558, 'learning_rate': 0.0001, 'epoch': 0.22}
+{'loss': 1.6208, 'grad_norm': 0.5480273962020874, 'learning_rate': 0.00012, 'epoch': 0.26}
+{'loss': 1.536, 'grad_norm': 0.4524068534374237, 'learning_rate': 0.00014, 'epoch': 0.3}
+{'loss': 1.5283, 'grad_norm': 0.581570029258728, 'learning_rate': 0.00016, 'epoch': 0.35}
+{'loss': 1.4515, 'grad_norm': 0.668830394744873, 'learning_rate': 0.00018, 'epoch': 0.39}
+{'loss': 1.4, 'grad_norm': 0.6947851181030273, 'learning_rate': 0.0002, 'epoch': 0.43}
+{'loss': 1.4254, 'grad_norm': 0.5479382276535034, 'learning_rate': 0.0001970941817426052, 'epoch': 0.48}
+{'loss': 1.3677, 'grad_norm': 0.46114492416381836, 'learning_rate': 0.000188545602565321, 'epoch': 0.52}
+{'loss': 1.3114, 'grad_norm': 0.43331989645957947, 'learning_rate': 0.00017485107481711012, 'epoch': 0.57}
+{'loss': 1.3344, 'grad_norm': 0.4082883894443512, 'learning_rate': 0.00015680647467311557, 'epoch': 0.61}
+{'loss': 1.3179, 'grad_norm': 0.3824356198310852, 'learning_rate': 0.00013546048870425356, 'epoch': 0.65}
+{'loss': 1.2604, 'grad_norm': 0.33459919691085815, 'learning_rate': 0.0001120536680255323, 'epoch': 0.7}
+{'loss': 1.3171, 'grad_norm': 0.3117714822292328, 'learning_rate': 8.79463319744677e-05, 'epoch': 0.74}
+{'loss': 1.2599, 'grad_norm': 0.29424405097961426, 'learning_rate': 6.453951129574644e-05, 'epoch': 0.78}
+{'loss': 1.2913, 'grad_norm': 0.325374037027359, 'learning_rate': 4.3193525326884435e-05, 'epoch': 0.83}
+{'loss': 1.2666, 'grad_norm': 0.3101343512535095, 'learning_rate': 2.514892518288988e-05, 'epoch': 0.87}
+{'loss': 1.2729, 'grad_norm': 0.3106636703014374, 'learning_rate': 1.1454397434679021e-05, 'epoch': 0.91}
+{'loss': 1.285, 'grad_norm': 0.2917991280555725, 'learning_rate': 2.905818257394799e-06, 'epoch': 0.96}
+{'loss': 1.2674, 'grad_norm': 0.2938016355037689, 'learning_rate': 0.0, 'epoch': 1.0}
+{'train_runtime': 19.6925, 'train_samples_per_second': 63.12, 'train_steps_per_second': 1.168, 'train_loss': 1.419544437657232, 'epoch': 1.0}
+[2025-01-10 13:24:52,296] [INFO] [axolotl.train.train:205] [PID:2638219] [RANK:0] Training Completed!!! Saving pre-trained model to ./outputs/lora-out[39m

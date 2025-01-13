@@ -35,6 +35,7 @@ group_by_length: false
 bf16: auto
 fp16:
 tf32: false
+eval_sample_packing: false
 
 gradient_checkpointing: true
 gradient_checkpointing_kwargs:

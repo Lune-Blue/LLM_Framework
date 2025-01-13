@@ -1,0 +1,10 @@
+{"time":"2025-01-13T08:22:48.380538301Z","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/lune/Projects/NLP_train/axolotl/wandb/run-20250113_082248-n6vvjbk6/logs/debug-core.log"}
+{"time":"2025-01-13T08:22:48.48743551Z","level":"INFO","msg":"created new stream","id":"n6vvjbk6"}
+{"time":"2025-01-13T08:22:48.487470497Z","level":"INFO","msg":"stream: started","id":"n6vvjbk6"}
+{"time":"2025-01-13T08:22:48.487471312Z","level":"INFO","msg":"writer: Do: started","stream_id":"n6vvjbk6"}
+{"time":"2025-01-13T08:22:48.487521318Z","level":"INFO","msg":"sender: started","stream_id":"n6vvjbk6"}
+{"time":"2025-01-13T08:22:48.487497398Z","level":"INFO","msg":"handler: started","stream_id":"n6vvjbk6"}
+{"time":"2025-01-13T08:22:48.765527033Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-13T08:22:54.715314876Z","level":"INFO","msg":"stream: closing","id":"n6vvjbk6"}
+{"time":"2025-01-13T08:22:54.715341917Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-13T08:22:54.716260749Z","level":"INFO","msg":"Stopped system monitor"}

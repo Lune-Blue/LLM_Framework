@@ -1,0 +1,1 @@
+accelerate launch -m axolotl.cli.train scripts/sj/train.yaml

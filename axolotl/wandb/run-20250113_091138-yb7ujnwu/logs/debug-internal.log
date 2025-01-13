@@ -1,0 +1,7 @@
+{"time":"2025-01-13T09:11:38.745064229Z","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/lune/Projects/NLP_train/axolotl/wandb/run-20250113_091138-yb7ujnwu/logs/debug-core.log"}
+{"time":"2025-01-13T09:11:38.85524522Z","level":"INFO","msg":"created new stream","id":"yb7ujnwu"}
+{"time":"2025-01-13T09:11:38.855327948Z","level":"INFO","msg":"stream: started","id":"yb7ujnwu"}
+{"time":"2025-01-13T09:11:38.855356476Z","level":"INFO","msg":"writer: Do: started","stream_id":"yb7ujnwu"}
+{"time":"2025-01-13T09:11:38.855385003Z","level":"INFO","msg":"sender: started","stream_id":"yb7ujnwu"}
+{"time":"2025-01-13T09:11:38.855364874Z","level":"INFO","msg":"handler: started","stream_id":"yb7ujnwu"}
+{"time":"2025-01-13T09:11:39.131388059Z","level":"INFO","msg":"Starting system monitor"}

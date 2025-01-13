@@ -1,0 +1,1 @@
+python run_inference_with_config.py config/run_config.yaml

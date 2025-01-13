@@ -1,2 +1,9 @@
 axolotl/last_run_prepared
 axolotl/outputs
+vllm_inference_dep/
+data/
+vllm_inference/ipynb
+vllm_inference/results
+vllm_inference/generation_results
+vllm_inference/logs
+vllm_inference/dep

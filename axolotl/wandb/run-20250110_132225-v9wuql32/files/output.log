@@ -1,0 +1,8 @@
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+[2025-01-10 13:22:26,201] [INFO] [axolotl.callbacks.on_train_begin:812] [PID:2632516] [RANK:0] The Axolotl config has been saved to the WandB run under files.[39m
+  0%|                                                                                                                                                                   | 0/23 [00:00<?, ?it/s]You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  4%|██████▋                                                                                                                                                    | 1/23 [00:02<00:52,  2.40s/it]
+{'loss': 1.6374, 'grad_norm': 0.6796181797981262, 'learning_rate': 2e-05, 'epoch': 0.04}
+[2025-01-10 13:22:27,549] [INFO] [axolotl.utils.samplers.multipack.calc_min_len:197] [PID:2632516] [RANK:0] gather_len_batches: [27, 27, 27, 27, 27, 27, 27, 27][39m
+                                                                                                                                                                                               
+{'eval_loss': 1.9565858840942383, 'eval_runtime': 0.4888, 'eval_samples_per_second': 284.36, 'eval_steps_per_second': 18.412, 'epoch': 0.04}

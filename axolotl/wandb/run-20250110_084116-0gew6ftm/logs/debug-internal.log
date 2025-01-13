@@ -1,0 +1,16 @@
+{"time":"2025-01-10T08:41:16.671194943Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T08:41:16.671214727Z","level":"INFO","msg":"created symlink","path":"/home/lune/Projects/NLP_train/axolotl/wandb/run-20250110_084116-0gew6ftm/logs/debug-core.log"}
+{"time":"2025-01-10T08:41:16.778967384Z","level":"INFO","msg":"created new stream","id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:16.779001077Z","level":"INFO","msg":"stream: started","id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:16.779043096Z","level":"INFO","msg":"writer: Do: started","stream_id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:16.779136361Z","level":"INFO","msg":"handler: started","stream_id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:16.779051355Z","level":"INFO","msg":"sender: started","stream_id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:17.139637232Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T08:41:37.947696779Z","level":"INFO","msg":"stream: closing","id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:37.947755764Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T08:41:37.948640735Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T08:41:38.924205908Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-10T08:41:39.404257714Z","level":"INFO","msg":"handler: closed","stream_id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:39.404322854Z","level":"INFO","msg":"writer: Close: closed","stream_id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:39.404367251Z","level":"INFO","msg":"sender: closed","stream_id":"0gew6ftm"}
+{"time":"2025-01-10T08:41:39.404499808Z","level":"INFO","msg":"stream: closed","id":"0gew6ftm"}

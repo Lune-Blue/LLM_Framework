@@ -1,0 +1,24 @@
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+[2025-01-10 08:41:17,511] [INFO] [axolotl.callbacks.on_train_begin:812] [PID:2032479] [RANK:0] The Axolotl config has been saved to the WandB run under files.[39m
+  0%|                                                                                                                                                                                                                                                             | 0/135 [00:00<?, ?it/s]You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+ 12%|████████████████████████████▉                                                                                                                                                                                                                       | 16/135 [00:20<02:31,  1.28s/it]
+{'loss': 1.3889, 'grad_norm': 0.3996018171310425, 'learning_rate': 2e-05, 'epoch': 0.01}
+[2025-01-10 08:41:18,955] [INFO] [axolotl.utils.samplers.multipack.calc_min_len:197] [PID:2032479] [RANK:0] gather_len_batches: [205, 205, 205, 205, 205, 205, 205, 205][39m
+                                                                                                                                                                                                                                                                                          
+{'eval_loss': 1.387376308441162, 'eval_runtime': 4.2137, 'eval_samples_per_second': 1295.049, 'eval_steps_per_second': 81.163, 'epoch': 0.01}
+[2025-01-10 08:41:24,111] [INFO] [axolotl.callbacks.on_step_end:128] [PID:2032479] [RANK:0] cuda memory usage while training: 2.425GB (+7.464GB cache, +0.978GB misc)[39m
+{'loss': 1.3788, 'grad_norm': 0.3895980715751648, 'learning_rate': 4e-05, 'epoch': 0.01}
+{'loss': 1.3894, 'grad_norm': 0.38856640458106995, 'learning_rate': 6e-05, 'epoch': 0.02}
+{'loss': 1.3448, 'grad_norm': 0.3731479048728943, 'learning_rate': 8e-05, 'epoch': 0.03}
+{'loss': 1.3266, 'grad_norm': 0.3325146436691284, 'learning_rate': 0.0001, 'epoch': 0.04}
+{'loss': 1.3352, 'grad_norm': 0.290652334690094, 'learning_rate': 0.00012, 'epoch': 0.04}
+{'loss': 1.2985, 'grad_norm': 0.2754566967487335, 'learning_rate': 0.00014, 'epoch': 0.05}
+{'loss': 1.317, 'grad_norm': 0.31821170449256897, 'learning_rate': 0.00016, 'epoch': 0.06}
+{'loss': 1.2866, 'grad_norm': 0.27814483642578125, 'learning_rate': 0.00018, 'epoch': 0.07}
+{'loss': 1.2367, 'grad_norm': 0.2835415303707123, 'learning_rate': 0.0002, 'epoch': 0.07}
+{'loss': 1.2647, 'grad_norm': 0.28152525424957275, 'learning_rate': 0.00019996841892833, 'epoch': 0.08}
+{'loss': 1.3109, 'grad_norm': 0.2599908113479614, 'learning_rate': 0.00019987369566060176, 'epoch': 0.09}
+{'loss': 1.2753, 'grad_norm': 0.1983054280281067, 'learning_rate': 0.0001997158900260614, 'epoch': 0.1}
+{'loss': 1.2816, 'grad_norm': 0.19820913672447205, 'learning_rate': 0.00019949510169813003, 'epoch': 0.1}
+{'loss': 1.3116, 'grad_norm': 0.2156163901090622, 'learning_rate': 0.0001992114701314478, 'epoch': 0.11}
+{'loss': 1.2564, 'grad_norm': 0.18686741590499878, 'learning_rate': 0.0001988651744737914, 'epoch': 0.12}
