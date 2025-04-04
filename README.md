@@ -5,33 +5,33 @@ It supports full fine-tuning, parameter-efficient training (e.g., QLoRA), and sc
 
 ## 🏗️ Components Overview
 
-### [`axolotl/`](https://github.com/axolotl-ai-cloud/axolotl)
+### [`axolotl`](https://github.com/axolotl-ai-cloud/axolotl)
 - Wrapper around HuggingFace's Trainer with structured config YAMLs.
 - Supports LoRA, QLoRA, DeepSpeed, and more.
 - Recommended for **scalable and reproducible training pipelines**.
 
 
-### `dpo/`
+### `dpo`
 - Implements Direct Preference Optimization for **alignment with human preferences**.
 - Requires a reward model and preference datasets.
 
-### `ppo/`
+### `ppo`
 - Implements PPO for **reinforcement learning with human feedback (RLHF)**.
 - Useful for controlling model behavior post-SFT.
 
-### `qlora/`
+### `qlora`
 - Lightweight fine-tuning using QLoRA (quantized adapters).
 - Optimized for **low-resource hardware** (e.g., single A100, consumer GPUs).
 
-### `train/`
+### `train`
 - Custom and experimental training scripts.
 - Good starting point for **prototyping** and model-specific tweaks.
 
-### [`text-generation-inference/`](https://github.com/huggingface/text-generation-inference)
+### [`text-generation-inference`](https://github.com/huggingface/text-generation-inference)
 - Meta’s TGI: High-performance inference server for LLMs.
 - Supports batching, streaming, quantized models.
 
-### [`vllm_inference/`](https://github.com/vllm-project/vllm)
+### [`vllm_inference`](https://github.com/vllm-project/vllm)
 - vLLM-based inference engine for **fast and memory-efficient generation**.
 - Ideal for serving large models with **continuous batching and KV caching**.
 
